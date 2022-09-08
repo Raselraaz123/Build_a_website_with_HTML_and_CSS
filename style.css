@@ -8,7 +8,9 @@ body{
   text-align: center;
   font-style: italic;
 }
-
+.first-section{
+  margin-bottom: 50px;
+}
 .first-button{
   background-image: linear-gradient(45deg, green,red,green);
   color: wheat;
@@ -29,25 +31,56 @@ body{
 }
 .photo img{
 width: 350px;
+ opacity: 0.5;
+}
+.photo img:hover{
+ opacity: 1;
+}
+ .secand-secion{
+  margin: 50px 0px;
+   /* width: 100%; 
+  margin: 0 auto; 
+  background-image: url(./image/map.png);
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+} 
+.secand-title{
+  text-align: center;
+  font-style: italic;
+font-weight: 600;
+font-family: fantasy;
+
 }
 .card-all{
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  justify-content: center;
+  gap: 20px;
 }
 .card{
   width: 250px;
   border-radius: 5px;
 box-shadow: 7px 7px 18px gray;
+background-color: wheat;
 }
+
 .card-img img{
   width: 250px;
   height: 170.75px;
-
+  opacity:.5;
   border-radius: 5px 5px 0px 0px;
 }
+.card-img img:hover{
+  width: 250px;
+  height: 170.75px;
+  opacity:1;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
 .card-button{
    background-image: linear-gradient(45deg, green,red,green);
   color: wheat;
