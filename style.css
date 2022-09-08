@@ -96,3 +96,9 @@ background-color: wheat;
 .artical-area{
   padding: 10px;
 }
+.footer{
+  background-color: black;
+  color:white;
+  padding: 20px;
+  text-align: center;
+}
